@@ -41,15 +41,38 @@
 
 ## 学习建议
 
+@ O2iginal： 
+
 - 如果上课听不明白，可参考[计算机图形学_中国农业大学_中国大学MOOC(慕课) (icourse163.org)](https://www.icourse163.org/course/CAU-45006)
 
   此网课内容大部分与上课内容基本相同，且条理更加清晰，内容也相对简答容易理解；
 
 - 对于纸质作业，可自行搜索（大概率能找到原题）
+
 - 对于上机实验，建议：
   - 仔细阅读代码中的注释内容（关于本次实验的提示）
   - 参考[主页 - LearnOpenGL CN (learnopengl-cn.github.io)](https://learnopengl-cn.github.io/)
     因为实验的很多内容都源于此，只不过修改了部分细节并换了一种语言实现；
+
+@Asdf-Lkjh:
+
+* @O2iginal 说得对！我再做一点点补充。
+
+* 我上课听不明白的时候是参考的[GAMES101:现代计算机图形学入门 (games-cn.org)](http://games-cn.org/intro-graphics/)，b站链接[Lecture 01 Overview of Computer Graphics_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1X7411F744/?p=1&vd_source=e25177b3e66719984b045706e55bd76d)
+  虽然和上课内容有一定的差别，但是我觉得对理解很有帮助。
+
+* 考试知识点基本都是在老师考前最后一节课的overview PPT里覆盖到的，如果觉得只复习纸质作业心里没底，那就再翻一翻overview。我把我翻overview时做的知识点总结思维导图也上传到这个目录了。
+
+* 如果翻overview PPT还是心里没底，那就直接百度（或任意搜索引擎）：“计算机图形学 期末”，能找到一堆各种来源的题，刷就是了。老师的题基本都是网上题库里来的，所以这样做有一定的概率命中原题。至少我刷到了两道原题。
+
+  当时我刷的题大概有这些：
+  [2020-2021《计算机图形学》期末课程考试试卷A（含答案） - 豆丁网 (docin.com)](https://www.docin.com/p-2634454387.html)
+
+  [(1条消息) 计算机图形学3套卷含答案_尧遥无期的博客-CSDN博客](https://blog.csdn.net/qq_44737028/article/details/111616146)
+
+  [计算机图形学试题及答案完整版 - 豆丁网 (docin.com)](https://www.docin.com/p-1173137651.html)
+
+  当时刷题的时候我还整理了一些题出来，上传到这个目录下的 “试图押题.md” 了。但是实际考试真没这么难。
 
 
 
