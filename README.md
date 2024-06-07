@@ -9,3 +9,6 @@
 - Note，同学贡献的课程笔记
 
 
+## 其他可能有帮助的项目
+- []()
+- [coursehero 2016年左右的课程ppt](https://www.coursehero.com/profile/shizhediao/)
