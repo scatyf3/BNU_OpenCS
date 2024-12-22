@@ -1,0 +1,109 @@
+# 项目基本信息
+site_name: BNU_OpenCS
+site_description: 北师大计算机科学学习资源平台
+site_author: BNU CS Team
+site_url: https://your-site-url.com
+repo_url: https://github.com/scatyf3/BNU_OpenCS
+repo_name: "BNU_OpenCS"
+
+# 主题设置
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github 
+  logo: images/logo.png  # 顶部导航栏的 Logo
+  favicon: images/favicon.ico  # 浏览器标签图标
+  palette:
+    scheme: default
+    primary: "#4CAF50"  # 自定义主色
+    accent: "#FF5722"   # 自定义辅助色
+  features:
+    - navigation.tabs  # 顶部导航显示为标签
+    - navigation.top   # 固定顶部导航
+    - search.highlight # 搜索高亮
+    - search.suggest   # 搜索建议
+    - toc.integrate    # 页面右侧显示目录
+  font:
+    text: Roboto       # 主要文本字体
+    code: Fira Code    # 代码字体
+  language: zh         # 设置为中文
+
+# 导航栏（顶部导航）
+nav:
+  - 首页: index.md
+  - 专业基础课:
+      - Python交互式编程: 专业基础课/python交互式编程/python交互式编程.md
+      - 数据库:
+          - 考试: 专业基础课/数据库/exam-数据库-24sp.md
+      - 数据结构: 专业基础课/数据结构/数据结构.md
+      - 数字逻辑: 专业基础课/数字逻辑/数字逻辑.md
+      - 离散数学:
+          - 离散数学1: 专业基础课/离散数学-1/离散数学1.md
+          - 离散数学2作业: 专业基础课/离散数学-2/homework-离散数学2-23sp.pdf
+      - 计算机导论: 专业基础课/计算机导论/计算机导论.md
+      - 软件工程:
+          - 信息: 专业基础课/软件工程/info-软件工程-23fa.md
+          - 考试: 专业基础课/软件工程/exam-软件工程-23fa.md
+          - 评价: 专业基础课/软件工程/review-软件工程-23fa.md
+      - 操作系统:
+          - 信息: 专业基础课/操作系统/info-操作系统-23fa.md
+          - 考试: 专业基础课/操作系统/exam-操作系统-23fa.md
+      - 计算机网络:
+          - 信息: 专业基础课/计算机网络/info-计算机网络-23fa.md
+          - 考试: 专业基础课/计算机网络/exam-计算机网络-23fa.md
+      - 编译原理:
+          - 信息: 专业基础课/编译原理/exam-编译原理-24sp.md
+      - 算法设计与分析: 专业基础课/算法设计与分析/exam-算法设计与分析-23sp.md
+      - 概率论与随机过程: 专业基础课/概率论与随机过程/exam-概率论与随机过程-23sp.md
+      - 人工智能导论:
+          - 信息: 专业基础课/人工智能导论/info-人工智能导论-23fa.md
+          - 考试: 专业基础课/人工智能导论/exam-人工智能导论-23fa.md
+      - 程序设计基础-C: 专业基础课/程序设计基础-C/程序设计基础（C）.md
+      - 计算机组成原理:
+          - 信息: 专业基础课/计算机组成原理/exam-计算机组成原理-23sp.md
+      - C++程序设计: 专业选修课/C++程序设计/C++程序设计.md  
+  - 专业选修课:
+      - Java: 专业选修课/java/info-Java-23sp.md
+      - 数据仓库与数据挖掘:
+          - 信息: 专业选修课/数据仓库与数据挖掘/info-数据仓库与数据挖掘-23fa.md
+      - 并行编程: 专业选修课/并行编程/info-并行编程-23fa.md
+      - 深度学习: 专业选修课/深度学习/info-深度学习-23fa.md
+      - 自然语言处理: 专业选修课/自然语言处理/exam-自然语言处理-24sp.md
+      - 数字图像处理: 专业选修课/数字图像处理/info-数字图像处理-23fa.md
+      - 区块链: 专业选修课/区块链/exam-随堂测验-24sp.md
+      - 信息安全: 专业选修课/信息安全/exam-信息安全-24sp.md
+      - 虚拟现实导论: 专业选修课/虚拟现实导论/info-虚拟现实导论-23fa.md
+      - 计算机图形学:
+          - 笔记: 专业选修课/计算机图形学/Note-计算机图形学-23sp-by@AsdfLkjh/试图押题.md
+          - 评价: 专业选修课/计算机图形学/review-计算机图形学-23sp.md
+      - 教育数字化: 专业选修课/教育数字化/info-教育数字化-23fa.md
+  - 学术资源:
+      - 官方文档: https://www.python.org
+  - 关于我们: about.md
+
+
+
+# Markdown 扩展
+markdown_extensions:
+  - toc:  # 自动生成目录
+      permalink: true
+  - tables  # 表格支持
+  - admonition  # 提示块支持（如注意、警告）
+  - codehilite:  # 代码高亮
+      guess_lang: false
+  - pymdownx.superfences  # 支持高级代码块格式
+
+# 额外配置
+extra:
+  social:
+    - icon: fontawesome/brands/github
+  meta:
+    description: 北师大计算机科学学习资源平台
+    keywords: 计算机, 学习, 北师大, OpenCS
+
+# 自定义样式与脚本
+extra_css:
+  - custom.css  # 自定义 CSS 文件
+extra_javascript:
+  - custom.js  # 自定义 JS 文件
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js  # 引入外部 JS 库
